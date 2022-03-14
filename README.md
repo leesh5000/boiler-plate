@@ -39,8 +39,13 @@ boiler-plate 는 대부분의 웹 어플리케이션의 기본 기능인 회원�
 # 프로젝트 Init
 
 ```
+/* project root */
 cd boiler-plate-master
+
+/* run backend */
 cd backend && ./gradlew bootjar && cd build/libs && java -jar backend-0.0.1-SNAPSHOT.jar
+
+/* run frontend */
 cd frontend && yarn install && yarn start
 
 ```
