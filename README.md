@@ -32,7 +32,7 @@ boiler-plate 는 대부분의 웹 어플리케이션의 기본 기능인 회원�
 - 라이브러리 : react, react-redux, redux-saga
 
 ## 2. backend
-- 언어 : Java
+- 언어 : Java 11
 - 프레임워크 : SpringBoot (spring security, spring data jpa, spring web)
 - 데이터베이스 : H2
 
