@@ -36,6 +36,15 @@ boiler-plate 는 대부분의 웹 어플리케이션의 기본 기능인 회원�
 - 프레임워크 : SpringBoot (spring security, spring data jpa, spring web)
 - 데이터베이스 : H2
 
+# 프로젝트 Init
+
+```
+cd boiler-plate-master
+cd backend && ./gradlew bootjar && cd ..
+cd frontend && yarn install && yarn start
+
+```
+
 # 주요 기능
 
 ## 1. 회원가입
