@@ -2,9 +2,9 @@
 
 boiler-plate 는 대부분의 웹 어플리케이션의 기본 기능인 회원가입, 로그인, 로그아웃을 기능을 가지 프로젝트입니다.
 
-# 개발 전 배경지식
+## 개발 전 배경지식
 
-## 1. Json Web Token
+### 1. Json Web Token
 
 우선 jwt는 선택적 서명 및 선택적 암호화를 사용하여 데이터를 만들기 위한 인터넷 표준 중 하나이다. jwt가 유저 인증 방식 중, 토큰 방식의 구현체로서 사용되기 적합하기 때문에 **"유저 인증을 위한 토큰 방식을, jwt 기술을 사용하여 구현"** 하는 것이다.
 
@@ -25,18 +25,18 @@ boiler-plate 는 대부분의 웹 어플리케이션의 기본 기능인 회원�
 
 하지만 본 프로젝트에서는 문제의 단순화를 위해 가장 기본적인 토큰 방식을 사용하여 유저 인증/인가를 진행한다.
 
-# 사용된 기술
+## 사용된 기술
 
-## 1. Frontend
+### 1. Frontend
 - 언어 : Javascript
 - 라이브러리 : react, react-redux, redux-saga
 
-## 2. backend
+### 2. backend
 - 언어 : Java 11
 - 프레임워크 : SpringBoot (spring security, spring data jpa, spring web)
 - 데이터베이스 : H2
 
-# 프로젝트 Init
+## 프로젝트 Init
 
 ```
 /* project root */
@@ -50,9 +50,9 @@ cd frontend && yarn install && yarn start
 
 ```
 
-# 주요 기능
+## 주요 기능
 
-## 1. 회원가입 & 로그인 & 로그아웃
+### 1. 회원가입 & 로그인 & 로그아웃
 
 <img src="https://user-images.githubusercontent.com/40898102/158198146-f8929604-8f2c-4dde-b551-af7ac0440132.gif">
 
