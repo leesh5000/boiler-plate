@@ -50,9 +50,3 @@ cd frontend && yarn install && yarn start
 
 ```
 
-## 주요 기능
-
-### 1. 회원가입 & 로그인 & 로그아웃
-
-<img src="https://user-images.githubusercontent.com/40898102/158198146-f8929604-8f2c-4dde-b551-af7ac0440132.gif">
-
